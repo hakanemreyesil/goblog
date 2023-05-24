@@ -1,0 +1,38 @@
+# Git directory and files
+.git
+
+# Go build output
+/bin
+
+# Go dependencies
+/vendor
+
+# Go test cache
+/test
+
+# Log files
+*.log
+
+# Miscellaneous system files
+.DS_Store
+Thumbs.db
+
+# Ignore all markdown files (README etc.)
+*.md
+
+# Ignore all test files
+*_test.go
+
+# Ignore personal IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore OS generated files
+ehthumbs.db
+Thumbs.db
+.DS_Store
+
+# Ignore Application binary
+main
